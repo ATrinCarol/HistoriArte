@@ -1,0 +1,40 @@
+.bg-person {
+    background: linear-gradient(90deg, rgba(78,21,97,1) 0%, rgba(142,34,181,1) 35%, rgba(241,191,255,1) 100%);
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(121, 34, 202);
+}
+
+ul.social-network {
+    list-style: none;
+    padding: 0%;
+}
+
+ul.social-network li {
+    display: inline;
+    margin: 0;
+    padding: 7px;
+}
+
+.fa {
+    font-size: 25pt;
+    padding: 10px;
+}
+
+.fa-envelope-o {
+    font-size: 13pt;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.bg-tp{
+    background-color: rgba(128, 128, 128, 0.322);
+    backdrop-filter: blur(10px);
+}

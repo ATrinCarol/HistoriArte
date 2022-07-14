@@ -1,0 +1,8 @@
+.bg-row{
+    background-color: rgba(139, 47, 134, 0.336);
+    backdrop-filter: blur(10px);
+}
+
+.btn-purple{
+    background-color: purple;
+} 

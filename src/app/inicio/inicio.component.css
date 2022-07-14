@@ -1,0 +1,16 @@
+.bg-row{
+    background-color: rgba(139, 47, 134, 0.336);
+    backdrop-filter: blur(10px);
+    background-size: cover;
+}
+
+.fs-54{
+    font-size: 54pt;
+}
+
+.fs-18{
+    font-size: 18pt;
+}
+.btn-purple{
+    background-color: purple;
+} 

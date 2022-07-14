@@ -1,0 +1,14 @@
+.bg-person{
+    background: linear-gradient(90deg, rgba(174,110,237,1) 0%, rgba(143,49,181,1) 35%, rgba(104,0,194,1) 100%);
+}
+
+.fs-13{
+    font-size: 13pt;
+}
+
+a {
+    color: black;
+}
+a:hover{
+    color:rgb(121, 34, 202)
+}

@@ -1,0 +1,33 @@
+/*Imagem direita*/
+#img-bg {
+    background-image: url("https://i.imgur.com/kyOy7UI.png");
+    min-width: 90vh;
+    min-height: 100vh;
+    /* background-size: 590px 650px;*/
+}
+
+/*Imagem esquerda*/
+.bg-entrar {
+    background-image: url('https://i.imgur.com/fLg9REf.png');
+    margin-top: 0px;
+}
+
+.bg-gr {
+    background-image: linear-gradient(180deg, #490e35 0, #aa2491 16.67%, #b93ca9 33.33%, #eb4ac8 50%, #f039c8 66.67%, #a81070 83.33%, #49093f 100%);
+}
+
+.btn-purple {
+    background-color: purple;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+
+.br-50 {
+    border-radius: 50px;
+}

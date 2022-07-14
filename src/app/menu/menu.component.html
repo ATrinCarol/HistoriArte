@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-secondary bg-person">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto d-flex align-items-center">
+            <li class="nav-item active">
+                <a href="#"><img src="https://i.imgur.com/7gIf3TR.png" alt="Logo HistoriArte" width="150px"
+                        class="img-fluid p-3"></a>
+                <img src="{{foto}}" alt="Foto da pessoa usuária" width="50px" height="50px"
+                    class="img-fluid rounded-circle">
+            </li>
+            <li class="nav-item pl-3">
+                <p class="m-0 font-weight-bold fs-13">Olá, {{nome}}</p>
+            </li>
+            <li class="nav-item pl-3">
+                <a [routerLink]="['/user-edit', id]">
+                    <i class="fa fa-wrench fs-13" aria-hidden="true"></i>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto d-flex align-items-center">
+            <li class="nav-item">
+                <a (click)="sair()" class="m-0 font-weight-bold fs-13">Sair <i class="fa fa-sign-out fs-13"
+                        aria-hidden="true"></i></a>
+        </ul>
+    </div>
+</nav>
